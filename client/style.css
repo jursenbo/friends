@@ -1,0 +1,16 @@
+.card {
+	background-color: #fff;
+	border-radius: 4px;
+	box-shadow: none;
+	border: 1px solid #ddd;
+	margin: 50px auto;
+	padding: 50px;
+}
+
+.card--500px {
+	width: 500px;
+}
+
+.card--fluid {
+	width: 90%
+}

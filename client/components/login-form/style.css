@@ -1,0 +1,7 @@
+.login-form__message {
+	margin: 30px 0 0;
+}
+
+.login-form__message--error {
+	color: #ffaa00
+}

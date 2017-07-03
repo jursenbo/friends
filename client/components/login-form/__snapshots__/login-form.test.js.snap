@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginForm snapshots renders form 1`] = `
+<section
+  className="login-form card card--500px"
+>
+  <form>
+    <div
+      className="form-group"
+    >
+      <label
+        htmlFor="inputName"
+      >
+        E-mail
+      </label>
+      <input
+        className="form-control"
+        id="inputName"
+        onChange={[Function]}
+        placeholder="E-mail"
+        type="text"
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label
+        htmlFor="inputPassword"
+      >
+        Password
+      </label>
+      <input
+        className="form-control"
+        id="inputPassword"
+        onChange={[Function]}
+        placeholder="Password"
+        type="password"
+      />
+    </div>
+    <button
+      className="btn btn-default"
+      onClick={[Function]}
+      type="submit"
+    >
+      Login
+    </button>
+  </form>
+</section>
+`;
+
+exports[`LoginForm snapshots renders form with error 1`] = `
+<section
+  className="login-form card card--500px"
+>
+  <form>
+    <div
+      className="form-group"
+    >
+      <label
+        htmlFor="inputName"
+      >
+        E-mail
+      </label>
+      <input
+        className="form-control"
+        id="inputName"
+        onChange={[Function]}
+        placeholder="E-mail"
+        type="text"
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label
+        htmlFor="inputPassword"
+      >
+        Password
+      </label>
+      <input
+        className="form-control"
+        id="inputPassword"
+        onChange={[Function]}
+        placeholder="Password"
+        type="password"
+      />
+    </div>
+    <button
+      className="btn btn-default"
+      onClick={[Function]}
+      type="submit"
+    >
+      Login
+    </button>
+  </form>
+</section>
+`;
+
+exports[`LoginForm snapshots renders form with message 1`] = `
+<section
+  className="login-form card card--500px"
+>
+  <form>
+    <div
+      className="form-group"
+    >
+      <label
+        htmlFor="inputName"
+      >
+        E-mail
+      </label>
+      <input
+        className="form-control"
+        id="inputName"
+        onChange={[Function]}
+        placeholder="E-mail"
+        type="text"
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label
+        htmlFor="inputPassword"
+      >
+        Password
+      </label>
+      <input
+        className="form-control"
+        id="inputPassword"
+        onChange={[Function]}
+        placeholder="Password"
+        type="password"
+      />
+    </div>
+    <button
+      className="btn btn-default"
+      onClick={[Function]}
+      type="submit"
+    >
+      Login
+    </button>
+  </form>
+</section>
+`;

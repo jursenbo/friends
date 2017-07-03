@@ -1,0 +1,19 @@
+.friends-table__visibleRows {
+	margin: 0 10px;
+}
+
+.friends-table__select {
+	display: inline;
+	width: auto;
+	margin: 0 0 0 5px;
+}
+
+.friends-table__filter {
+	margin: 0 10px;
+}
+
+.friends-table__search {
+	display: inline;
+	width: auto;
+	margin: 0 0 0 5px;
+}
