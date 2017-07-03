@@ -3,7 +3,6 @@ const passport = require('passport')
 function initLogin(app) {
 	app.post('/api/login', function(req, res, next) {
 		passport.authenticate('local', function(err, user, info) {
-			console.log(err, info)
 			if (err) {
 				return next(err)
 			}

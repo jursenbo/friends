@@ -81,20 +81,3 @@ function renderPageMarkup() {
 }
 
 module.exports = { friendsList: generateFriendsList(), renderPageMarkup }
-
-// fetch('/login', {
-// 	method: 'post',
-// 	headers: new Headers({
-// 		'Content-Type': 'application/json'
-// 	}),
-// 	credentials: 'same-origin',
-// 	body: JSON.stringify({ username: 'gunther@gmail.com', password: 'RnJpZW5kcw==' })
-// }).then(function(res) { console.log(res) })
-
-// fetch('/', {
-// 	method: 'GET',
-// 	headers: new Headers({
-// 		'Accept': 'application/json'
-// 	}),
-// 	credentials: 'same-origin'
-// }).then(function(res) { console.log(res) })
