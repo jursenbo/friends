@@ -39,10 +39,13 @@ function generateUniqueName(namesList) {
 
 function generateFriendsList() {
 	let friendsList = []
+	let uniqueNamesList = []
 	for (let i = 0; i < 50; i++) {
-		const fullName = generateUniqueName(friendsList).split(' ')
-		const name = fullName[0]
-		const surname = fullName[1]
+		const fullName = generateUniqueName(uniqueNamesList)
+		uniqueNamesList.push(fullName)
+		const nameParts = fullName.split(' ')
+		const name = nameParts[0]
+		const surname = nameParts[1]
 		const age = getRandomInt(21, 90)
 		const gender = ['male', 'female'][getRandomInt(0, 2)]
 		const birthDate = new Date(
